@@ -6,7 +6,7 @@ f0 = 10;             % frecuencia de la señal (Hz)
 A = 1;              % amplitud
 phi = 0;            % fase inicial (rad)
 
-x = A * sin(2*pi*f0*t + phi);
+x = A * cos(2*pi*f0*t + phi);
 
 figure;
 plot(t, x);
